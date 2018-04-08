@@ -3762,8 +3762,8 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="U2" library="SD-library-Adnan" deviceset="MICRO-SD-SOCKET-SMD" device="1:1"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="5R"/>
-<part name="BLINKY" library="SparkFun" deviceset="LED" device="0603" value="Green"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51R"/>
+<part name="BLINKY" library="SparkFun" deviceset="LED" device="0603" value="Red"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="PAD2" library="wirepad" deviceset="2,15/1,0" device=""/>

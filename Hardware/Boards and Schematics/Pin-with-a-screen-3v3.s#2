@@ -4037,6 +4037,8 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <wire x1="-58.42" y1="0" x2="-137.16" y2="0" width="0.1524" layer="97"/>
 <text x="128.524" y="-47.752" size="2.54" layer="94">CREATED BY: Adnan Arif</text>
 <text x="-20.32" y="139.7" size="1.778" layer="95" rot="R90">V_OUT</text>
+<text x="-129.54" y="137.16" size="2.1844" layer="97">Battery connects here</text>
+<text x="-129.54" y="114.3" size="2.1844" layer="97">Switch connects here</text>
 </plain>
 <instances>
 <instance part="LCD2" gate="G$1" x="-109.22" y="35.56" rot="MR0"/>
