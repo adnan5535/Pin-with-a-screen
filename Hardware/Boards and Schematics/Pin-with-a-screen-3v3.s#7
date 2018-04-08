@@ -4257,7 +4257,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH" value="Button McButtonface"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4269,20 +4269,20 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="U3" library="SD-library-Adnan" deviceset="MICRO-SD-SOCKET-SMD" device="SMD"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" deviceset="FRAME_B_L" device="">
+<part name="FRAME1" library="frames" deviceset="FRAME_B_L" device="" value="Frame of Peace">
 <attribute name="DATE" value="10th Feb 2018"/>
 </part>
 <part name="POWSWITCH" library="SparkFun-Connectors" deviceset="M02" device="POGO_PIN_HOLES_ONLY"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="Q2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT89"/>
+<part name="Q2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT89" value="BL8530"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="0603" value="22uH"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="3528-KIT" value="100uF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="3528-KIT" value="47uF"/>
 <part name="D1" library="diode" deviceset="1N581*" device="" technology="9-B"/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="SMD"/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="SMD" value="8MHz"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22pF"/>
 <part name="C8" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22pF"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4341,7 +4341,10 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="GND6" gate="1" x="71.12" y="50.8"/>
 <instance part="J1" gate="G$1" x="114.3" y="124.46"/>
 <instance part="R5" gate="G$1" x="86.36" y="93.98" rot="R270"/>
-<instance part="S1" gate="S" x="150.622" y="78.232" rot="MR0"/>
+<instance part="S1" gate="S" x="150.622" y="78.232" smashed="yes" rot="MR0">
+<attribute name="NAME" x="153.162" y="84.582" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="150.622" y="87.122" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="GND8" gate="1" x="139.7" y="119.38"/>
 <instance part="GND10" gate="1" x="-81.28" y="53.34"/>
 <instance part="GND11" gate="1" x="-76.2" y="17.78"/>
@@ -4368,7 +4371,10 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </instance>
 <instance part="R14" gate="G$1" x="163.322" y="89.408" rot="R270"/>
 <instance part="R15" gate="G$1" x="-104.14" y="127" rot="R90"/>
-<instance part="Q2" gate="G$1" x="-27.94" y="137.16" rot="MR90"/>
+<instance part="Q2" gate="G$1" x="-27.94" y="137.16" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-27.94" y="142.24" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="-19.05" y="134.366" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="GND1" gate="1" x="-27.94" y="119.38"/>
 <instance part="SUPPLY1" gate="G$1" x="-10.16" y="144.78"/>
 <instance part="L1" gate="G$1" x="-50.8" y="139.7" rot="R90"/>
@@ -4849,6 +4855,13 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-86.36,22.86,LCD2,GND2,GND,,,"/>
+<approved hash="104,1,-86.36,30.48,LCD2,VCC,3.3V,,,"/>
+<approved hash="104,1,-86.36,27.94,LCD2,VCC2,3.3V,,,"/>
+<approved hash="104,1,-86.36,43.18,LCD2,GND1,GND,,,"/>
+<approved hash="104,1,-110.744,-27.94,U3,VCC,3.3V,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

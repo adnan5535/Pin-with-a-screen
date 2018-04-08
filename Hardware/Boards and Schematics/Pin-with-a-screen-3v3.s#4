@@ -4586,7 +4586,7 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="300R"/>
-<part name="LED1" library="SparkFun" deviceset="LED" device="0603"/>
+<part name="BLINKY" library="SparkFun" deviceset="LED" device="0603" value="Green"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -4681,7 +4681,9 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <instance part="SUPPLY9" gate="G$1" x="-124.46" y="-25.4"/>
 <instance part="GND9" gate="1" x="-127" y="-45.72"/>
 <instance part="R1" gate="G$1" x="147.32" y="53.34"/>
-<instance part="LED1" gate="G$1" x="157.48" y="53.34" rot="R90"/>
+<instance part="BLINKY" gate="G$1" x="157.48" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.052" y="56.896" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="GND13" gate="1" x="163.83" y="48.26"/>
 </instances>
 <busses>
@@ -4870,7 +4872,7 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <junction x="-121.92" y="-40.64"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="BLINKY" gate="G$1" pin="C"/>
 <wire x1="162.56" y1="53.34" x2="163.83" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="163.83" y1="53.34" x2="163.83" y2="50.8" width="0.1524" layer="91"/>
@@ -5161,7 +5163,7 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <net name="N$8" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="BLINKY" gate="G$1" pin="A"/>
 <wire x1="152.4" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
