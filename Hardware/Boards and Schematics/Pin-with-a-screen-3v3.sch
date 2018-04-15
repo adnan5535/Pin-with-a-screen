@@ -2285,146 +2285,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Electromechanical">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find anything that moves- switches, relays, buttons, potentiometers. Also, anything that goes on a board but isn't electrical in nature- screws, standoffs, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_SMD">
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="TACTILE-PTH">
-<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-<package name="KSA_SEALED_TAC_SWITCH">
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.127" layer="21"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
-<pad name="P$1" x="-3.81" y="2.54" drill="1" shape="square"/>
-<pad name="P$2" x="3.81" y="2.54" drill="1" shape="square"/>
-<pad name="P$3" x="-3.81" y="-2.54" drill="1" shape="square"/>
-<pad name="P$4" x="3.81" y="-2.54" drill="1" shape="square"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SWITCH-MOMENTARY">
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
-<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TAC_SWITCH" prefix="S" uservalue="yes">
-<description>&lt;b&gt;Momentary Switch&lt;/b&gt;&lt;br&gt;
-Button commonly used for reset or general input.&lt;br&gt;
-Spark Fun Electronics SKU : COM-00097&lt;br&gt;
-SMT- SWCH-08247</description>
-<gates>
-<gate name="S" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="TACTILE_SWITCH_SMD">
-<connects>
-<connect gate="S" pin="1" pad="1"/>
-<connect gate="S" pin="2" pad="2"/>
-<connect gate="S" pin="3" pad="3"/>
-<connect gate="S" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-</technology>
-</technologies>
-</device>
-<device name="PTH" package="TACTILE-PTH">
-<connects>
-<connect gate="S" pin="1" pad="1"/>
-<connect gate="S" pin="2" pad="2"/>
-<connect gate="S" pin="3" pad="3"/>
-<connect gate="S" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="KSA_SEALED" package="KSA_SEALED_TAC_SWITCH">
-<connects>
-<connect gate="S" pin="1" pad="P$1"/>
-<connect gate="S" pin="2" pad="P$2"/>
-<connect gate="S" pin="3" pad="P$3"/>
-<connect gate="S" pin="4" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -3759,6 +3619,65 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 </deviceset>
 </devicesets>
 </library>
+<library name="switches_adnan">
+<packages>
+<package name="5MM-PTH">
+<description>Footprint (package) for horizontal (right-angle) momentary tactile switch 6*6*5mm from eBay.</description>
+<wire x1="-2.3" y1="-1.3" x2="0" y2="-1.3" width="0.25" layer="21"/>
+<wire x1="0" y1="-0.7" x2="0.6" y2="-1.3" width="0.25" layer="21"/>
+<wire x1="0.6" y1="-1.3" x2="2.2" y2="-1.3" width="0.25" layer="21"/>
+<circle x="0" y="-0.7" radius="0.1" width="0.25" layer="21"/>
+<text x="-0.635" y="2.54" size="0.4064" layer="27">&gt;Value</text>
+<text x="-0.635" y="-3.175" size="0.4064" layer="25">&gt;Name</text>
+<pad name="1" x="-2.25" y="-1.25" drill="1"/>
+<pad name="2" x="2.25" y="-1.25" drill="1"/>
+<pad name="GND1" x="3.5" y="1.25" drill="1.5"/>
+<pad name="GND" x="-3.5" y="1.25" drill="1.5"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SWITCH-TACT-5MM-PTH-HORIZ">
+<description>Schematic symbol for 5mm horizontal momentary tactile switch 6*6*5mm from eBay.</description>
+<wire x1="-7.62" y1="0" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<circle x="0" y="5.08" radius="1.626390625" width="0.4064" layer="94"/>
+<pin name="1" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<text x="-7.62" y="1.27" size="1.27" layer="94">1</text>
+<text x="6.604" y="1.27" size="1.27" layer="94">2</text>
+<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<pin name="GND" x="-7.62" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND1" x="7.62" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<text x="-7.62" y="-2.032" size="0.8128" layer="94">GND</text>
+<text x="5.588" y="-2.032" size="0.8128" layer="94">GND</text>
+<text x="-2.54" y="-7.62" size="0.8128" layer="95">&gt;Name</text>
+<text x="-2.54" y="7.62" size="0.8128" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH-TACT-5MM-PTH-HORIZ">
+<description>Horizontal (right-angle) momentary tactile switch from eBay.
+6*6*5mm</description>
+<gates>
+<gate name="G$1" symbol="SWITCH-TACT-5MM-PTH-HORIZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5MM-PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3782,7 +3701,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH" value="Button McButtonface"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3830,7 +3748,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="JP12" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP13" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP14" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP15" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP16" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP17" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP18" library="pinhead" deviceset="PINHD-1X1" device=""/>
@@ -3840,6 +3757,8 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="U$1" library="switches_adnan" deviceset="SWITCH-TACT-5MM-PTH-HORIZ" device=""/>
+<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3890,10 +3809,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <instance part="GND6" gate="1" x="99.06" y="83.82"/>
 <instance part="J1" gate="G$1" x="142.24" y="157.48"/>
 <instance part="R5" gate="G$1" x="114.3" y="127" rot="R270"/>
-<instance part="S1" gate="S" x="178.562" y="111.252" smashed="yes" rot="MR0">
-<attribute name="NAME" x="181.102" y="117.602" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="178.562" y="120.142" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="GND8" gate="1" x="167.64" y="152.4"/>
 <instance part="GND10" gate="1" x="-81.28" y="53.34"/>
 <instance part="GND11" gate="1" x="-76.2" y="17.78"/>
@@ -3948,7 +3863,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <instance part="JP12" gate="G$1" x="33.02" y="-48.26"/>
 <instance part="JP13" gate="G$1" x="50.8" y="-48.26"/>
 <instance part="JP14" gate="G$1" x="68.58" y="-48.26"/>
-<instance part="JP15" gate="G$1" x="33.02" y="-60.96"/>
 <instance part="JP16" gate="G$1" x="50.8" y="-60.96"/>
 <instance part="JP17" gate="G$1" x="68.58" y="-60.96"/>
 <instance part="JP18" gate="G$1" x="86.36" y="-60.96"/>
@@ -3958,6 +3872,8 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <instance part="JP1" gate="G$1" x="99.06" y="-10.16"/>
 <instance part="JP2" gate="G$1" x="99.06" y="-20.32"/>
 <instance part="JP3" gate="G$1" x="99.06" y="-30.48"/>
+<instance part="U$1" gate="G$1" x="180.34" y="111.76" rot="MR0"/>
+<instance part="GND15" gate="1" x="180.34" y="103.886"/>
 </instances>
 <busses>
 </busses>
@@ -4164,6 +4080,15 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND1"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="180.34" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="106.426" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+<junction x="180.34" y="106.68"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -4311,30 +4236,11 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="S1" gate="S" pin="4"/>
-<pinref part="S1" gate="S" pin="3"/>
-<wire x1="173.482" y1="111.252" x2="170.942" y2="111.252" width="0.1524" layer="91"/>
-<wire x1="170.942" y1="111.252" x2="170.942" y2="109.982" width="0.1524" layer="91"/>
-<wire x1="170.942" y1="109.982" x2="170.942" y2="108.712" width="0.1524" layer="91"/>
-<wire x1="170.942" y1="108.712" x2="173.482" y2="108.712" width="0.1524" layer="91"/>
-<wire x1="170.942" y1="109.982" x2="168.402" y2="109.982" width="0.1524" layer="91"/>
-<wire x1="168.402" y1="109.982" x2="168.402" y2="101.6" width="0.1524" layer="91"/>
-<junction x="170.942" y="109.982"/>
+<wire x1="168.402" y1="111.76" x2="168.402" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="168.402" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="S1" gate="S" pin="1"/>
-<wire x1="183.642" y1="111.252" x2="186.182" y2="111.252" width="0.1524" layer="91"/>
-<wire x1="186.182" y1="111.252" x2="191.262" y2="111.252" width="0.1524" layer="91"/>
-<wire x1="186.182" y1="111.252" x2="186.182" y2="108.712" width="0.1524" layer="91"/>
-<junction x="186.182" y="111.252"/>
-<pinref part="S1" gate="S" pin="2"/>
-<wire x1="186.182" y1="108.712" x2="183.642" y2="108.712" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="191.262" y1="117.348" x2="191.262" y2="111.252" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="111.76" x2="168.402" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATT_VOLT" class="0">
@@ -4347,7 +4253,9 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <segment>
 <pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="167.64" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
-<label x="172.72" y="99.06" size="1.778" layer="95"/>
+<label x="172.72" y="96.52" size="1.778" layer="95"/>
+<wire x1="172.72" y1="99.06" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LX" class="0">
@@ -4471,48 +4379,57 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <label x="101.6" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="191.262" y1="117.348" x2="191.262" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="191.262" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,-38.1,-43.18,JP9,1,,,,"/>
-<approved hash="101,1,-20.32,-43.18,JP10,1,,,,"/>
-<approved hash="101,1,-2.54,-43.18,JP11,1,,,,"/>
-<approved hash="101,1,-38.1,-55.88,JP12,1,,,,"/>
-<approved hash="101,1,-20.32,-55.88,JP13,1,,,,"/>
-<approved hash="101,1,-2.54,-55.88,JP14,1,,,,"/>
-<approved hash="101,1,-38.1,-68.58,JP15,1,,,,"/>
-<approved hash="101,1,-20.32,-68.58,JP16,1,,,,"/>
-<approved hash="101,1,-2.54,-68.58,JP17,1,,,,"/>
-<approved hash="101,1,15.24,-68.58,JP18,1,,,,"/>
-<approved hash="101,1,33.02,-68.58,JP19,1,,,,"/>
+<approved hash="101,1,30.48,-35.56,JP9,1,,,,"/>
+<approved hash="101,1,48.26,-35.56,JP10,1,,,,"/>
+<approved hash="101,1,66.04,-35.56,JP11,1,,,,"/>
+<approved hash="101,1,30.48,-48.26,JP12,1,,,,"/>
+<approved hash="101,1,48.26,-48.26,JP13,1,,,,"/>
+<approved hash="101,1,66.04,-48.26,JP14,1,,,,"/>
+<approved hash="101,1,30.48,-60.96,JP15,1,,,,"/>
+<approved hash="101,1,48.26,-60.96,JP16,1,,,,"/>
+<approved hash="101,1,66.04,-60.96,JP17,1,,,,"/>
+<approved hash="101,1,83.82,-60.96,JP18,1,,,,"/>
+<approved hash="101,1,101.6,-60.96,JP19,1,,,,"/>
 <approved hash="104,1,-86.36,22.86,LCD2,GND2,GND,,,"/>
 <approved hash="104,1,-86.36,30.48,LCD2,VCC,3.3V,,,"/>
 <approved hash="104,1,-86.36,27.94,LCD2,VCC2,3.3V,,,"/>
 <approved hash="104,1,-86.36,43.18,LCD2,GND1,GND,,,"/>
 <approved hash="104,1,-109.22,-27.94,U2,VCC,3.3V,,,"/>
+<approved hash="104,1,172.72,106.68,U$1,GND1,GND,,,"/>
 <approved hash="113,1,-124.739,128.173,PAD1,,,,,"/>
 <approved hash="113,1,-106.959,128.173,PAD2,,,,,"/>
 <approved hash="113,1,-124.739,105.313,PAD3,,,,,"/>
 <approved hash="113,1,-106.959,105.313,PAD4,,,,,"/>
-<approved hash="113,1,-37.8629,-16.3788,JP5,,,,,"/>
-<approved hash="113,1,-20.0829,-16.3788,JP6,,,,,"/>
-<approved hash="113,1,-37.8629,-29.0788,JP7,,,,,"/>
-<approved hash="113,1,-20.0829,-29.0788,JP8,,,,,"/>
-<approved hash="113,1,-37.8629,-41.7788,JP9,,,,,"/>
-<approved hash="113,1,-20.0829,-41.7788,JP10,,,,,"/>
-<approved hash="113,1,-2.30293,-41.7788,JP11,,,,,"/>
-<approved hash="113,1,-37.8629,-54.4788,JP12,,,,,"/>
-<approved hash="113,1,-20.0829,-54.4788,JP13,,,,,"/>
-<approved hash="113,1,-2.30293,-54.4788,JP14,,,,,"/>
-<approved hash="113,1,-37.8629,-67.1788,JP15,,,,,"/>
-<approved hash="113,1,-20.0829,-67.1788,JP16,,,,,"/>
-<approved hash="113,1,-2.30293,-67.1788,JP17,,,,,"/>
-<approved hash="113,1,15.4771,-67.1788,JP18,,,,,"/>
-<approved hash="113,1,33.2571,-67.1788,JP19,,,,,"/>
-<approved hash="113,1,28.1771,-16.3788,JP1,,,,,"/>
-<approved hash="113,1,28.1771,-26.5388,JP2,,,,,"/>
-<approved hash="113,1,28.1771,-36.6988,JP3,,,,,"/>
+<approved hash="113,1,30.7171,-8.75877,JP5,,,,,"/>
+<approved hash="113,1,48.4971,-8.75877,JP6,,,,,"/>
+<approved hash="113,1,30.7171,-21.4588,JP7,,,,,"/>
+<approved hash="113,1,48.4971,-21.4588,JP8,,,,,"/>
+<approved hash="113,1,30.7171,-34.1588,JP9,,,,,"/>
+<approved hash="113,1,48.4971,-34.1588,JP10,,,,,"/>
+<approved hash="113,1,66.2771,-34.1588,JP11,,,,,"/>
+<approved hash="113,1,30.7171,-46.8588,JP12,,,,,"/>
+<approved hash="113,1,48.4971,-46.8588,JP13,,,,,"/>
+<approved hash="113,1,66.2771,-46.8588,JP14,,,,,"/>
+<approved hash="113,1,30.7171,-59.5588,JP15,,,,,"/>
+<approved hash="113,1,48.4971,-59.5588,JP16,,,,,"/>
+<approved hash="113,1,66.2771,-59.5588,JP17,,,,,"/>
+<approved hash="113,1,84.0571,-59.5588,JP18,,,,,"/>
+<approved hash="113,1,101.837,-59.5588,JP19,,,,,"/>
+<approved hash="113,1,96.7571,-8.75877,JP1,,,,,"/>
+<approved hash="113,1,96.7571,-18.9188,JP2,,,,,"/>
+<approved hash="113,1,96.7571,-29.0788,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
