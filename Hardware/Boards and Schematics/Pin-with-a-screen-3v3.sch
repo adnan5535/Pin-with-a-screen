@@ -3735,8 +3735,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="PAD2" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="PAD3" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="PAD4" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP6" library="pinhead" deviceset="PINHD-1X1" device=""/>
@@ -3749,7 +3747,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <part name="JP13" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP14" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP16" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP17" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP18" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP19" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3850,8 +3847,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <instance part="GND13" gate="1" x="191.77" y="81.28"/>
 <instance part="PAD1" gate="1" x="-127" y="127"/>
 <instance part="PAD2" gate="1" x="-109.22" y="127"/>
-<instance part="PAD3" gate="1" x="-127" y="104.14"/>
-<instance part="PAD4" gate="1" x="-109.22" y="104.14"/>
 <instance part="GND14" gate="1" x="-101.6" y="124.46"/>
 <instance part="JP5" gate="G$1" x="33.02" y="-10.16"/>
 <instance part="JP6" gate="G$1" x="50.8" y="-10.16"/>
@@ -3864,9 +3859,8 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <instance part="JP13" gate="G$1" x="50.8" y="-48.26"/>
 <instance part="JP14" gate="G$1" x="68.58" y="-48.26"/>
 <instance part="JP16" gate="G$1" x="50.8" y="-60.96"/>
-<instance part="JP17" gate="G$1" x="68.58" y="-60.96"/>
-<instance part="JP18" gate="G$1" x="86.36" y="-60.96"/>
-<instance part="JP19" gate="G$1" x="104.14" y="-60.96"/>
+<instance part="JP18" gate="G$1" x="-124.46" y="104.14"/>
+<instance part="JP19" gate="G$1" x="-101.6" y="104.14"/>
 <instance part="GND2" gate="1" x="63.5" y="-25.4"/>
 <instance part="SUPPLY10" gate="G$1" x="38.1" y="-7.62"/>
 <instance part="JP1" gate="G$1" x="99.06" y="-10.16"/>
@@ -4301,10 +4295,10 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <label x="-127" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PAD3" gate="1" pin="P"/>
-<wire x1="-124.46" y1="104.14" x2="-121.92" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="104.14" x2="-121.92" y2="109.22" width="0.1524" layer="91"/>
-<label x="-127" y="109.22" size="1.778" layer="95"/>
+<wire x1="-127" y1="104.14" x2="-119.38" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="104.14" x2="-119.38" y2="109.22" width="0.1524" layer="91"/>
+<label x="-124.46" y="109.22" size="1.778" layer="95"/>
+<pinref part="JP18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BATT_OUT" class="0">
@@ -4323,10 +4317,10 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <label x="-71.12" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PAD4" gate="1" pin="P"/>
-<wire x1="-106.68" y1="104.14" x2="-104.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="-104.14" y="109.22" size="1.778" layer="95"/>
-<wire x1="-104.14" y1="104.14" x2="-104.14" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="JP19" gate="G$1" pin="1"/>
+<wire x1="-104.14" y1="104.14" x2="-93.98" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="104.14" x2="-93.98" y2="109.22" width="0.1524" layer="91"/>
+<label x="-101.6" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -4397,11 +4391,8 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <approved hash="101,1,30.48,-48.26,JP12,1,,,,"/>
 <approved hash="101,1,48.26,-48.26,JP13,1,,,,"/>
 <approved hash="101,1,66.04,-48.26,JP14,1,,,,"/>
-<approved hash="101,1,30.48,-60.96,JP15,1,,,,"/>
 <approved hash="101,1,48.26,-60.96,JP16,1,,,,"/>
 <approved hash="101,1,66.04,-60.96,JP17,1,,,,"/>
-<approved hash="101,1,83.82,-60.96,JP18,1,,,,"/>
-<approved hash="101,1,101.6,-60.96,JP19,1,,,,"/>
 <approved hash="104,1,-86.36,22.86,LCD2,GND2,GND,,,"/>
 <approved hash="104,1,-86.36,30.48,LCD2,VCC,3.3V,,,"/>
 <approved hash="104,1,-86.36,27.94,LCD2,VCC2,3.3V,,,"/>
@@ -4410,8 +4401,6 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <approved hash="104,1,172.72,106.68,U$1,GND1,GND,,,"/>
 <approved hash="113,1,-124.739,128.173,PAD1,,,,,"/>
 <approved hash="113,1,-106.959,128.173,PAD2,,,,,"/>
-<approved hash="113,1,-124.739,105.313,PAD3,,,,,"/>
-<approved hash="113,1,-106.959,105.313,PAD4,,,,,"/>
 <approved hash="113,1,30.7171,-8.75877,JP5,,,,,"/>
 <approved hash="113,1,48.4971,-8.75877,JP6,,,,,"/>
 <approved hash="113,1,30.7171,-21.4588,JP7,,,,,"/>
@@ -4422,11 +4411,10 @@ Link (could break over time): https://www.ebay.com/itm/171297065693?ViewItem=&am
 <approved hash="113,1,30.7171,-46.8588,JP12,,,,,"/>
 <approved hash="113,1,48.4971,-46.8588,JP13,,,,,"/>
 <approved hash="113,1,66.2771,-46.8588,JP14,,,,,"/>
-<approved hash="113,1,30.7171,-59.5588,JP15,,,,,"/>
 <approved hash="113,1,48.4971,-59.5588,JP16,,,,,"/>
 <approved hash="113,1,66.2771,-59.5588,JP17,,,,,"/>
-<approved hash="113,1,84.0571,-59.5588,JP18,,,,,"/>
-<approved hash="113,1,101.837,-59.5588,JP19,,,,,"/>
+<approved hash="113,1,-126.763,105.541,JP18,,,,,"/>
+<approved hash="113,1,-103.903,105.541,JP19,,,,,"/>
 <approved hash="113,1,96.7571,-8.75877,JP1,,,,,"/>
 <approved hash="113,1,96.7571,-18.9188,JP2,,,,,"/>
 <approved hash="113,1,96.7571,-29.0788,JP3,,,,,"/>
